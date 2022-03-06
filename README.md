@@ -8,9 +8,9 @@ Ex: bluebolt, blueblaze, bluebastion etc...
 
 
 ## Dictionary
-https://stackoverflow.com/questions/6441975/where-can-i-download-english-dictionary-database-in-a-text-format
-https://www.gutenberg.org/ebooks/29765
-https://www.gutenberg.org/cache/epub/29765/pg29765.txt
+- https://stackoverflow.com/questions/6441975/where-can-i-download-english-dictionary-database-in-a-text-format
+- https://www.gutenberg.org/ebooks/29765
+- https://www.gutenberg.org/cache/epub/29765/pg29765.txt
 
 Use `, n.` to find the noun. Then grab the line above it
 
@@ -36,13 +36,13 @@ https://github.com/jomo/tld_checker/blob/master/tld_checker.sh#L15-L22
 
 
 Python
-https://pypi.org/project/dnspython/
-https://stackoverflow.com/questions/13842116/how-do-we-get-txt-cname-and-soa-records-from-dnspython
+- https://pypi.org/project/dnspython/
+- https://stackoverflow.com/questions/13842116/how-do-we-get-txt-cname-and-soa-records-from-dnspython
 
 ```python
 answers = dns.resolver.query('google.com', 'SOA')
 print 'query qname:', answers.qname, ' num ans.', len(answers)
 
-if len < 1:
+if len(answers) < 1:
     print("Available")
 ```
